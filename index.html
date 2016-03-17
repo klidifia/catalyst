@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Catalyst app</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+    <link rel="stylesheet" type="text/css" href="static/css/screen.css">
+  </head>
+  <body>
+
+    <h1>Welcome</h1>
+
+    <p>To this really functional mobile app!</p>
+
+    <p>See more on our <a href="javascript:void(0)" onclick="window.open('https://www.catalyst.net.nz', '_system', 'location=no');">website</a>.</p>
+
+    <script src="cordova.js"></script>
+    <script type="text/javascript" src="static/js/constants.js"></script>
+    <script type="text/javascript" src="static/js/phonegap-loader.js"></script>
+    <script>
+    phonegap_script_loader
+      .add_scripts([
+        "static/js/lib/jquery-2.1.0.min.js",
+        "static/js/lib/grapnel.js",
+        "static/js/lib/fastclick.min.js",
+        "static/js/sha.js",
+        "static/js/lib/hammer.min.js",
+        "static/js/lib/jquery.detect_swipe.js",
+        "static/js/lib/clamp.js",
+        "static/js/lib/echo.js",
+        "static/js/utils.js"])
+     .finalize();
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.catalyst.app" versionCode="10" version="1.0.0">
+  <preference name="phonegap-version" value="cli-6.0.0" />
+  <name>Catalyst IT</name>
+  <description>Catalyst IT app!</description>
+  <author href="http://www.catalyst.net.nz/" email="haydenr@catalyst.net.nz">Catalyst IT</author>
+  <content src="index.html" />
+
+  <preference name="permissions" value="none" />
+
+  <platform name="android" />
+  <!--<platform name="ios" />-->
+
+  <plugin name="cordova-plugin-inappbrowser" version="1.3.0" source="npm" />
+  <plugin name="cordova-plugin-whitelist" version="1.2.1" source="npm" />
+  <!--
+  <plugin name="cordova-plugin-camera" version="2.1.0" source="npm" />
+  <plugin name="cordova-plugin-media-capture" version="1.0.1" source="npm" />
+  <plugin name="cordova-plugin-geolocation" version="1.0.1" source="npm" />
+  <plugin name="cordova-plugin-file" version="2.1.0" source="npm" />
+  <plugin name="cordova-plugin-file-transfer" version="1.5.0" source="npm" />
+  <plugin name="cordova-plugin-network-information" version="1.0.1" source="npm" />
+  -->
+
+  <!-- Icon -->
+  <icon src="icon.png" />
+  <!-- Android -->
+  <!--
+  <icon src="static/art/icon/android/drawable-ldpi-icon.png" platform="android" qualifier="ldpi" />
+  <icon src="static/art/icon/android/drawable-mdpi-icon.png" platform="android" qualifier="mdpi" />
+  <icon src="static/art/icon/android/drawable-hdpi-icon.png" platform="android" qualifier="hdpi" />
+  <icon src="static/art/icon/android/drawable-xhdpi-icon.png" platform="android" qualifier="xhdpi" />
+  <icon src="static/art/icon/android/drawable-xxhdpi-icon.png" platform="android" qualifier="xxhdpi" />
+  <icon src="static/art/icon/android/drawable-xxxhdpi-icon.png" platform="android" qualifier="xxxhdpi" />
+  -->
+
+  <allow-navigation href="*" />
+  <allow-intent href="*" />
+  <access origin="*" />
+</widget>
